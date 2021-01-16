@@ -1,0 +1,19 @@
+@import "bootstrap";
+
+$dark-blue: #004cd8;
+$medium-blue: #4281f5;
+$light-blue: #42c8f5;
+
+.banner {
+    background-color: $dark-blue;
+    height: 100px;
+}
+
+.banner * {
+    color: white;
+}
+
+.banner a:hover {
+    color: $light-blue;
+    text-decoration: none;
+}
