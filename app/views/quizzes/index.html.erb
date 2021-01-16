@@ -1,0 +1,7 @@
+<h1>Quizzes!</h1>
+<% if @quizzes.length == 0 then %>
+    Nobody has made any quizzes yet.
+<% end%>
+<% @quizzes.each do |quiz|%>
+    <%= quiz.name %>
+<% end %>
