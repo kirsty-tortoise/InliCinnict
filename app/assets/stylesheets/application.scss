@@ -17,3 +17,23 @@ $light-blue: #42c8f5;
     color: $light-blue;
     text-decoration: none;
 }
+
+.card {
+    background-color: $light-blue;
+    text-align: left;
+    border: none;
+}
+
+.card * {
+    padding-left: 10px;
+}
+
+.btn-primary {
+    background-color: $medium-blue;
+    border: none;
+    margin: 3px 6px 3px 0;
+}
+
+.btn-primary.hover {
+    background-color: $dark-blue;
+}

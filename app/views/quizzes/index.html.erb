@@ -1,7 +1,11 @@
 <h1>Quizzes!</h1>
+
+<%= link_to "Create a quiz", new_quiz_path, class: "btn btn-primary" %>
+
+<h2>All quizzes</h2>
 <% if @quizzes.length == 0 then %>
-    Nobody has made any quizzes yet.
+    Nobody has made any quizzes yet. You can <%= link_to "create a quiz", new_quiz_path %> yourself.
 <% end%>
 <% @quizzes.each do |quiz|%>
-    <%= quiz.name %>
+    <%= render "show", quiz: quiz %>
 <% end %>
