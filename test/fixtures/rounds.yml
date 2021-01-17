@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  type: 
+  type:
   quiz: one
   round_number: 1
 
 two:
-  type: 
+  type:
   quiz: two
   round_number: 1

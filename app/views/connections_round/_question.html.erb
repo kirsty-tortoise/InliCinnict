@@ -1,12 +1,12 @@
 <div class="card">
-    <div class="card-header" id="heading<%=id%>">
+    <div class="card-header" id="heading<%=remove_spaces id%>">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#Collapse<%= id%>" aria-expanded="true" aria-controls="#Collapse<%=id%>">
-          Question <%=id%>
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#Collapse<%= remove_spaces id%>" aria-expanded="true" aria-controls="#Collapse<%=remove_spaces id%>">
+          <%=id%>
         </button>
       </h2>
     </div>
-    <div id="Collapse<%= id%>" class="collapse" aria-labelledby="heading<%=id%>" data-parent="#connectingRoundQuestions">
+    <div id="Collapse<%=remove_spaces id%>" class="collapse" aria-labelledby="heading<%=remove_spaces id%>" data-parent="#connectingRoundQuestions">
       <div class="card-body">
         One day you will be able to create your question here
       </div>
