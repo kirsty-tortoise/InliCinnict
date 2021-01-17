@@ -1,0 +1,2 @@
+class MissingVowelsRound < Round
+end

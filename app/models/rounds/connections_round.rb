@@ -1,0 +1,2 @@
+class ConnectionsRound < Round
+end

@@ -1,0 +1,2 @@
+class ConnectingWallRound < Round
+end

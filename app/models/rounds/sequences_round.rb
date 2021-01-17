@@ -1,0 +1,2 @@
+class SequencesRound < Round
+end

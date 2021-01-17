@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import "bootstrap/scss/bootstrap";
 
 $dark-blue: #004cd8;
 $medium-blue: #4281f5;
@@ -24,8 +24,8 @@ $light-blue: #42c8f5;
     border: none;
 }
 
-.card * {
-    padding-left: 10px;
+.card .card-content {
+    padding: 1px 5px;
 }
 
 .btn-primary {

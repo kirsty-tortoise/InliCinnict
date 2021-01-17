@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
   root "quizzes#index"
-  resources :quizzes
+  resources :quizzes do
+    resources :connections_round
+  end
 end
