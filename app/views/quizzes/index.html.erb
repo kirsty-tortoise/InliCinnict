@@ -4,8 +4,8 @@
 
 <h2>All quizzes</h2>
 <% if @quizzes.length == 0 then %>
-    Nobody has made any quizzes yet. You can <%= link_to "create a quiz", new_quiz_path %> yourself.
-<% end%>
-<% @quizzes.each do |quiz|%>
-    <%= render "show", quiz: quiz %>
+  Nobody has made any quizzes yet. You can <%= link_to "create a quiz", new_quiz_path %> yourself.
+<% end %>
+<% @quizzes.each do |quiz| %>
+  <%= render "show", quiz: quiz %>
 <% end %>

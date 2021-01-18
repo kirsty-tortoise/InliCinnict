@@ -1,17 +1,17 @@
 <div class="card my-2">
-    <div class="card-content">
-        <div class="grid">
-            <div class="row no-gutters">
-                <div class="col-8">
-                    <h3><%= quiz.name %></h3>
-                    <h5>By <%= quiz.author %></h5>
-                </div>
-                <div class="col d-flex justify-content-end align-items-center">
-                    <%= link_to "Play", quizzes_path, class:"btn btn-primary" %>
-                    <%= link_to "Leaderboard", quizzes_path, class:"btn btn-primary" %>
-                    <%= link_to "Edit", quizzes_path, class:"btn btn-primary" %>
-                </div>
-            </div>
+  <div class="card-content">
+    <div class="grid">
+      <div class="row no-gutters">
+        <div class="col-8">
+          <h3><%= quiz.name %></h3>
+          <h5>By <%= quiz.author %></h5>
         </div>
+        <div class="col d-flex justify-content-end align-items-center">
+          <%= link_to "Play", quizzes_path, class: "btn btn-primary" %>
+          <%= link_to "Leaderboard", quizzes_path, class: "btn btn-primary" %>
+          <%= link_to "Edit", quizzes_path, class: "btn btn-primary" %>
+        </div>
+      </div>
     </div>
+  </div>
 </div>

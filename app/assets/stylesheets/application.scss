@@ -5,35 +5,35 @@ $medium-blue: #4281f5;
 $light-blue: #42c8f5;
 
 .banner {
-    background-color: $dark-blue;
-    height: 100px;
+  background-color: $dark-blue;
+  height: 100px;
 }
 
 .banner * {
-    color: white;
+  color: white;
 }
 
 .banner a:hover {
-    color: $light-blue;
-    text-decoration: none;
+  color: $light-blue;
+  text-decoration: none;
 }
 
 .card {
-    background-color: $light-blue;
-    text-align: left;
-    border: none;
+  background-color: $light-blue;
+  text-align: left;
+  border: none;
 }
 
 .card .card-content {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 .btn-primary {
-    background-color: $medium-blue;
-    border: none;
-    margin: 3px 6px 3px 0;
+  background-color: $medium-blue;
+  border: none;
+  margin: 3px 6px 3px 0;
 }
 
 .btn-primary.hover {
-    background-color: $dark-blue;
+  background-color: $dark-blue;
 }
